@@ -8,16 +8,6 @@
 
   <p align="center">
     Aplikasi Baca Alquran Online dengan Audio dan Terjemah Bahasa Indonesia
-    <br/>
-    <br/>
-    <a href="https://github.com/ichsanmln99/baca-alquran-v2"><strong>Explore the docs »</strong></a>
-    <br/>
-    <br/>
-    <a href="https://github.com/ichsanmln99/baca-alquran-v2">View Demo</a>
-    .
-    <a href="https://github.com/ichsanmln99/baca-alquran-v2/issues">Report Bug</a>
-    .
-    <a href="https://github.com/ichsanmln99/baca-alquran-v2/issues">Request Feature</a>
   </p>
 </p>
 
