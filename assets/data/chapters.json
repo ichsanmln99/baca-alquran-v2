@@ -1,0 +1,1370 @@
+[
+  {
+    "bismillah_pre": false,
+    "id": 1,
+    "name_arabic": "الفاتحة",
+    "name_simple": "Al-Fatihah",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Pembukaan"
+    },
+    "verses_count": 7
+  },
+  {
+    "bismillah_pre": true,
+    "id": 2,
+    "name_arabic": "البقرة",
+    "name_simple": "Al-Baqarah",
+    "revelation_place": "madinah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Sapi Betina"
+    },
+    "verses_count": 286
+  },
+  {
+    "bismillah_pre": true,
+    "id": 3,
+    "name_arabic": "آل عمران",
+    "name_simple": "Ali 'Imran",
+    "revelation_place": "madinah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Keluarga Imran"
+    },
+    "verses_count": 200
+  },
+  {
+    "bismillah_pre": true,
+    "id": 4,
+    "name_arabic": "النساء",
+    "name_simple": "An-Nisa",
+    "revelation_place": "madinah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Wanita"
+    },
+    "verses_count": 176
+  },
+  {
+    "bismillah_pre": true,
+    "id": 5,
+    "name_arabic": "المائدة",
+    "name_simple": "Al-Ma'idah",
+    "revelation_place": "madinah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Jamuan (Hidangan Makanan)"
+    },
+    "verses_count": 120
+  },
+  {
+    "bismillah_pre": true,
+    "id": 6,
+    "name_arabic": "الأنعام",
+    "name_simple": "Al-An'am",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Binatang Ternak"
+    },
+    "verses_count": 165
+  },
+  {
+    "bismillah_pre": true,
+    "id": 7,
+    "name_arabic": "الأعراف",
+    "name_simple": "Al-A'raf",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Tempat-tempat Tinggi"
+    },
+    "verses_count": 206
+  },
+  {
+    "bismillah_pre": true,
+    "id": 8,
+    "name_arabic": "الأنفال",
+    "name_simple": "Al-Anfal",
+    "revelation_place": "madinah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Rampasan Perang"
+    },
+    "verses_count": 75
+  },
+  {
+    "bismillah_pre": false,
+    "id": 9,
+    "name_arabic": "التوبة",
+    "name_simple": "At-Tawbah",
+    "revelation_place": "madinah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Pengampunan"
+    },
+    "verses_count": 129
+  },
+  {
+    "bismillah_pre": true,
+    "id": 10,
+    "name_arabic": "يونس",
+    "name_simple": "Yunus",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Yunus"
+    },
+    "verses_count": 109
+  },
+  {
+    "bismillah_pre": true,
+    "id": 11,
+    "name_arabic": "هود",
+    "name_simple": "Hud",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Hud"
+    },
+    "verses_count": 123
+  },
+  {
+    "bismillah_pre": true,
+    "id": 12,
+    "name_arabic": "يوسف",
+    "name_simple": "Yusuf",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Yusuf"
+    },
+    "verses_count": 111
+  },
+  {
+    "bismillah_pre": true,
+    "id": 13,
+    "name_arabic": "الرعد",
+    "name_simple": "Ar-Ra'd",
+    "revelation_place": "madinah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Guruh (Petir)"
+    },
+    "verses_count": 43
+  },
+  {
+    "bismillah_pre": true,
+    "id": 14,
+    "name_arabic": "ابراهيم",
+    "name_simple": "Ibrahim",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Ibrahim"
+    },
+    "verses_count": 52
+  },
+  {
+    "bismillah_pre": true,
+    "id": 15,
+    "name_arabic": "الحجر",
+    "name_simple": "Al-Hijr",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Bukit"
+    },
+    "verses_count": 99
+  },
+  {
+    "bismillah_pre": true,
+    "id": 16,
+    "name_arabic": "النحل",
+    "name_simple": "An-Nahl",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Lebah Madu"
+    },
+    "verses_count": 128
+  },
+  {
+    "bismillah_pre": true,
+    "id": 17,
+    "name_arabic": "الإسراء",
+    "name_simple": "Al-Isra",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Perjalanan Malam"
+    },
+    "verses_count": 111
+  },
+  {
+    "bismillah_pre": true,
+    "id": 18,
+    "name_arabic": "الكهف",
+    "name_simple": "Al-Kahf",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Para Penghuni Gua"
+    },
+    "verses_count": 110
+  },
+  {
+    "bismillah_pre": true,
+    "id": 19,
+    "name_arabic": "مريم",
+    "name_simple": "Maryam",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Maryam"
+    },
+    "verses_count": 98
+  },
+  {
+    "bismillah_pre": true,
+    "id": 20,
+    "name_arabic": "طه",
+    "name_simple": "Taha",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Tha-Ha"
+    },
+    "verses_count": 135
+  },
+  {
+    "bismillah_pre": true,
+    "id": 21,
+    "name_arabic": "الأنبياء",
+    "name_simple": "Al-Anbya",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Para Nabi"
+    },
+    "verses_count": 112
+  },
+  {
+    "bismillah_pre": true,
+    "id": 22,
+    "name_arabic": "الحج",
+    "name_simple": "Al-Hajj",
+    "revelation_place": "madinah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Haji"
+    },
+    "verses_count": 78
+  },
+  {
+    "bismillah_pre": true,
+    "id": 23,
+    "name_arabic": "المؤمنون",
+    "name_simple": "Al-Mu'minun",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Orang-orang Mukmin"
+    },
+    "verses_count": 118
+  },
+  {
+    "bismillah_pre": true,
+    "id": 24,
+    "name_arabic": "النور",
+    "name_simple": "An-Nur",
+    "revelation_place": "madinah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Cahaya"
+    },
+    "verses_count": 64
+  },
+  {
+    "bismillah_pre": true,
+    "id": 25,
+    "name_arabic": "الفرقان",
+    "name_simple": "Al-Furqan",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Pembeda"
+    },
+    "verses_count": 77
+  },
+  {
+    "bismillah_pre": true,
+    "id": 26,
+    "name_arabic": "الشعراء",
+    "name_simple": "Ash-Shu'ara",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Penyair"
+    },
+    "verses_count": 227
+  },
+  {
+    "bismillah_pre": true,
+    "id": 27,
+    "name_arabic": "النمل",
+    "name_simple": "An-Naml",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Semut"
+    },
+    "verses_count": 93
+  },
+  {
+    "bismillah_pre": true,
+    "id": 28,
+    "name_arabic": "القصص",
+    "name_simple": "Al-Qasas",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Kisah-kisah"
+    },
+    "verses_count": 88
+  },
+  {
+    "bismillah_pre": true,
+    "id": 29,
+    "name_arabic": "العنكبوت",
+    "name_simple": "Al-'Ankabut",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Laba-laba"
+    },
+    "verses_count": 69
+  },
+  {
+    "bismillah_pre": true,
+    "id": 30,
+    "name_arabic": "الروم",
+    "name_simple": "Ar-Rum",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Bangsa Romawi"
+    },
+    "verses_count": 60
+  },
+  {
+    "bismillah_pre": true,
+    "id": 31,
+    "name_arabic": "لقمان",
+    "name_simple": "Luqman",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Luqman"
+    },
+    "verses_count": 34
+  },
+  {
+    "bismillah_pre": true,
+    "id": 32,
+    "name_arabic": "السجدة",
+    "name_simple": "As-Sajdah",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Sujud"
+    },
+    "verses_count": 30
+  },
+  {
+    "bismillah_pre": true,
+    "id": 33,
+    "name_arabic": "الأحزاب",
+    "name_simple": "Al-Ahzab",
+    "revelation_place": "madinah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Golongan yang Bersekutu"
+    },
+    "verses_count": 73
+  },
+  {
+    "bismillah_pre": true,
+    "id": 34,
+    "name_arabic": "سبإ",
+    "name_simple": "Saba",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Saba\\'"
+    },
+    "verses_count": 54
+  },
+  {
+    "bismillah_pre": true,
+    "id": 35,
+    "name_arabic": "فاطر",
+    "name_simple": "Fatir",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Pencipta"
+    },
+    "verses_count": 45
+  },
+  {
+    "bismillah_pre": true,
+    "id": 36,
+    "name_arabic": "يس",
+    "name_simple": "Ya-Sin",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Yas Sin"
+    },
+    "verses_count": 83
+  },
+  {
+    "bismillah_pre": true,
+    "id": 37,
+    "name_arabic": "الصافات",
+    "name_simple": "As-Saffat",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Barisan-barisan"
+    },
+    "verses_count": 182
+  },
+  {
+    "bismillah_pre": true,
+    "id": 38,
+    "name_arabic": "ص",
+    "name_simple": "Sad",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Shad"
+    },
+    "verses_count": 88
+  },
+  {
+    "bismillah_pre": true,
+    "id": 39,
+    "name_arabic": "الزمر",
+    "name_simple": "Az-Zumar",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Para Rombongan"
+    },
+    "verses_count": 75
+  },
+  {
+    "bismillah_pre": true,
+    "id": 40,
+    "name_arabic": "غافر",
+    "name_simple": "Ghafir",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Sang Maha Pengampun"
+    },
+    "verses_count": 85
+  },
+  {
+    "bismillah_pre": true,
+    "id": 41,
+    "name_arabic": "فصلت",
+    "name_simple": "Fussilat",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Yang Dijelaskan"
+    },
+    "verses_count": 54
+  },
+  {
+    "bismillah_pre": true,
+    "id": 42,
+    "name_arabic": "الشورى",
+    "name_simple": "Ash-Shuraa",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Musyawarah"
+    },
+    "verses_count": 53
+  },
+  {
+    "bismillah_pre": true,
+    "id": 43,
+    "name_arabic": "الزخرف",
+    "name_simple": "Az-Zukhruf",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Perhiasan"
+    },
+    "verses_count": 89
+  },
+  {
+    "bismillah_pre": true,
+    "id": 44,
+    "name_arabic": "الدخان",
+    "name_simple": "Ad-Dukhan",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Kabut"
+    },
+    "verses_count": 59
+  },
+  {
+    "bismillah_pre": true,
+    "id": 45,
+    "name_arabic": "الجاثية",
+    "name_simple": "Al-Jathiyah",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Yang Bertekuk Lutut"
+    },
+    "verses_count": 37
+  },
+  {
+    "bismillah_pre": true,
+    "id": 46,
+    "name_arabic": "الأحقاف",
+    "name_simple": "Al-Ahqaf",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Bukit-bukir Pasir"
+    },
+    "verses_count": 35
+  },
+  {
+    "bismillah_pre": true,
+    "id": 47,
+    "name_arabic": "محمد",
+    "name_simple": "Muhammad",
+    "revelation_place": "madinah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Muhammad"
+    },
+    "verses_count": 38
+  },
+  {
+    "bismillah_pre": true,
+    "id": 48,
+    "name_arabic": "الفتح",
+    "name_simple": "Al-Fath",
+    "revelation_place": "madinah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Kemenangan"
+    },
+    "verses_count": 29
+  },
+  {
+    "bismillah_pre": true,
+    "id": 49,
+    "name_arabic": "الحجرات",
+    "name_simple": "Al-Hujurat",
+    "revelation_place": "madinah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Kamar-kamar"
+    },
+    "verses_count": 18
+  },
+  {
+    "bismillah_pre": true,
+    "id": 50,
+    "name_arabic": "ق",
+    "name_simple": "Qaf",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Qaf"
+    },
+    "verses_count": 45
+  },
+  {
+    "bismillah_pre": true,
+    "id": 51,
+    "name_arabic": "الذاريات",
+    "name_simple": "Adh-Dhariyat",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Angin yang Menerbangkan"
+    },
+    "verses_count": 60
+  },
+  {
+    "bismillah_pre": true,
+    "id": 52,
+    "name_arabic": "الطور",
+    "name_simple": "At-Tur",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Bukit"
+    },
+    "verses_count": 49
+  },
+  {
+    "bismillah_pre": true,
+    "id": 53,
+    "name_arabic": "النجم",
+    "name_simple": "An-Najm",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Bintang"
+    },
+    "verses_count": 62
+  },
+  {
+    "bismillah_pre": true,
+    "id": 54,
+    "name_arabic": "القمر",
+    "name_simple": "Al-Qamar",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Bulan"
+    },
+    "verses_count": 55
+  },
+  {
+    "bismillah_pre": true,
+    "id": 55,
+    "name_arabic": "الرحمن",
+    "name_simple": "Ar-Rahman",
+    "revelation_place": "madinah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Yang Maha Pemurah"
+    },
+    "verses_count": 78
+  },
+  {
+    "bismillah_pre": true,
+    "id": 56,
+    "name_arabic": "الواقعة",
+    "name_simple": "Al-Waqi'ah",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Hari Kiamat"
+    },
+    "verses_count": 96
+  },
+  {
+    "bismillah_pre": true,
+    "id": 57,
+    "name_arabic": "الحديد",
+    "name_simple": "Al-Hadid",
+    "revelation_place": "madinah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Besi"
+    },
+    "verses_count": 29
+  },
+  {
+    "bismillah_pre": true,
+    "id": 58,
+    "name_arabic": "المجادلة",
+    "name_simple": "Al-Mujadila",
+    "revelation_place": "madinah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Wanita yang Menggugat"
+    },
+    "verses_count": 22
+  },
+  {
+    "bismillah_pre": true,
+    "id": 59,
+    "name_arabic": "الحشر",
+    "name_simple": "Al-Hashr",
+    "revelation_place": "madinah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Pengusiran"
+    },
+    "verses_count": 24
+  },
+  {
+    "bismillah_pre": true,
+    "id": 60,
+    "name_arabic": "الممتحنة",
+    "name_simple": "Al-Mumtahanah",
+    "revelation_place": "madinah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Wanita yang Diuji"
+    },
+    "verses_count": 13
+  },
+  {
+    "bismillah_pre": true,
+    "id": 61,
+    "name_arabic": "الصف",
+    "name_simple": "As-Saf",
+    "revelation_place": "madinah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Barisan"
+    },
+    "verses_count": 14
+  },
+  {
+    "bismillah_pre": true,
+    "id": 62,
+    "name_arabic": "الجمعة",
+    "name_simple": "Al-Jumu'ah",
+    "revelation_place": "madinah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Hari Jum\\'at"
+    },
+    "verses_count": 11
+  },
+  {
+    "bismillah_pre": true,
+    "id": 63,
+    "name_arabic": "المنافقون",
+    "name_simple": "Al-Munafiqun",
+    "revelation_place": "madinah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Kaum Munafik"
+    },
+    "verses_count": 11
+  },
+  {
+    "bismillah_pre": true,
+    "id": 64,
+    "name_arabic": "التغابن",
+    "name_simple": "At-Taghabun",
+    "revelation_place": "madinah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Hari Dinampakkan Kesalahan"
+    },
+    "verses_count": 18
+  },
+  {
+    "bismillah_pre": true,
+    "id": 65,
+    "name_arabic": "الطلاق",
+    "name_simple": "At-Talaq",
+    "revelation_place": "madinah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Perceraian"
+    },
+    "verses_count": 12
+  },
+  {
+    "bismillah_pre": true,
+    "id": 66,
+    "name_arabic": "التحريم",
+    "name_simple": "At-Tahrim",
+    "revelation_place": "madinah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Mengharamkan"
+    },
+    "verses_count": 12
+  },
+  {
+    "bismillah_pre": true,
+    "id": 67,
+    "name_arabic": "الملك",
+    "name_simple": "Al-Mulk",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Kerajaan"
+    },
+    "verses_count": 30
+  },
+  {
+    "bismillah_pre": true,
+    "id": 68,
+    "name_arabic": "القلم",
+    "name_simple": "Al-Qalam",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Pena"
+    },
+    "verses_count": 52
+  },
+  {
+    "bismillah_pre": true,
+    "id": 69,
+    "name_arabic": "الحاقة",
+    "name_simple": "Al-Haqqah",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Kenyataan (Hari Kiamat)"
+    },
+    "verses_count": 52
+  },
+  {
+    "bismillah_pre": true,
+    "id": 70,
+    "name_arabic": "المعارج",
+    "name_simple": "Al-Ma'arij",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Tempat yang Naik"
+    },
+    "verses_count": 44
+  },
+  {
+    "bismillah_pre": true,
+    "id": 71,
+    "name_arabic": "نوح",
+    "name_simple": "Nuh",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Nuh"
+    },
+    "verses_count": 28
+  },
+  {
+    "bismillah_pre": true,
+    "id": 72,
+    "name_arabic": "الجن",
+    "name_simple": "Al-Jinn",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Jin"
+    },
+    "verses_count": 28
+  },
+  {
+    "bismillah_pre": true,
+    "id": 73,
+    "name_arabic": "المزمل",
+    "name_simple": "Al-Muzzammil",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Orang yang Berselimut"
+    },
+    "verses_count": 20
+  },
+  {
+    "bismillah_pre": true,
+    "id": 74,
+    "name_arabic": "المدثر",
+    "name_simple": "Al-Muddaththir",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Orang yang Berkemul"
+    },
+    "verses_count": 56
+  },
+  {
+    "bismillah_pre": true,
+    "id": 75,
+    "name_arabic": "القيامة",
+    "name_simple": "Al-Qiyamah",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Hari Berbangkit"
+    },
+    "verses_count": 40
+  },
+  {
+    "bismillah_pre": true,
+    "id": 76,
+    "name_arabic": "الانسان",
+    "name_simple": "Al-Insan",
+    "revelation_place": "madinah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Manusia"
+    },
+    "verses_count": 31
+  },
+  {
+    "bismillah_pre": true,
+    "id": 77,
+    "name_arabic": "المرسلات",
+    "name_simple": "Al-Mursalat",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Malaikat-malaikan yang Diutus"
+    },
+    "verses_count": 50
+  },
+  {
+    "bismillah_pre": true,
+    "id": 78,
+    "name_arabic": "النبإ",
+    "name_simple": "An-Naba",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Berita Besar"
+    },
+    "verses_count": 40
+  },
+  {
+    "bismillah_pre": true,
+    "id": 79,
+    "name_arabic": "النازعات",
+    "name_simple": "An-Nazi'at",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Malaikat yang Mencabut"
+    },
+    "verses_count": 46
+  },
+  {
+    "bismillah_pre": true,
+    "id": 80,
+    "name_arabic": "عبس",
+    "name_simple": "'Abasa",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Ia Bermuka Masam"
+    },
+    "verses_count": 42
+  },
+  {
+    "bismillah_pre": true,
+    "id": 81,
+    "name_arabic": "التكوير",
+    "name_simple": "At-Takwir",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Menggulung"
+    },
+    "verses_count": 29
+  },
+  {
+    "bismillah_pre": true,
+    "id": 82,
+    "name_arabic": "الإنفطار",
+    "name_simple": "Al-Infitar",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Terbelah"
+    },
+    "verses_count": 19
+  },
+  {
+    "bismillah_pre": true,
+    "id": 83,
+    "name_arabic": "المطففين",
+    "name_simple": "Al-Mutaffifin",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Orang-orang Curang"
+    },
+    "verses_count": 36
+  },
+  {
+    "bismillah_pre": true,
+    "id": 84,
+    "name_arabic": "الإنشقاق",
+    "name_simple": "Al-Inshiqaq",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Terbelah"
+    },
+    "verses_count": 25
+  },
+  {
+    "bismillah_pre": true,
+    "id": 85,
+    "name_arabic": "البروج",
+    "name_simple": "Al-Buruj",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Gugusan Bintang"
+    },
+    "verses_count": 22
+  },
+  {
+    "bismillah_pre": true,
+    "id": 86,
+    "name_arabic": "الطارق",
+    "name_simple": "At-Tariq",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Yang Datang di Malam Hari"
+    },
+    "verses_count": 17
+  },
+  {
+    "bismillah_pre": true,
+    "id": 87,
+    "name_arabic": "الأعلى",
+    "name_simple": "Al-A'la",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Yang Paling Tinggi"
+    },
+    "verses_count": 19
+  },
+  {
+    "bismillah_pre": true,
+    "id": 88,
+    "name_arabic": "الغاشية",
+    "name_simple": "Al-Ghashiyah",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Hari Pembalasan"
+    },
+    "verses_count": 26
+  },
+  {
+    "bismillah_pre": true,
+    "id": 89,
+    "name_arabic": "الفجر",
+    "name_simple": "Al-Fajr",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Fajar"
+    },
+    "verses_count": 30
+  },
+  {
+    "bismillah_pre": true,
+    "id": 90,
+    "name_arabic": "البلد",
+    "name_simple": "Al-Balad",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Negeri"
+    },
+    "verses_count": 20
+  },
+  {
+    "bismillah_pre": true,
+    "id": 91,
+    "name_arabic": "الشمس",
+    "name_simple": "Ash-Shams",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Matahari"
+    },
+    "verses_count": 15
+  },
+  {
+    "bismillah_pre": true,
+    "id": 92,
+    "name_arabic": "الليل",
+    "name_simple": "Al-Layl",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Malam"
+    },
+    "verses_count": 21
+  },
+  {
+    "bismillah_pre": true,
+    "id": 93,
+    "name_arabic": "الضحى",
+    "name_simple": "Ad-Duhaa",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Waktu Dhuha"
+    },
+    "verses_count": 11
+  },
+  {
+    "bismillah_pre": true,
+    "id": 94,
+    "name_arabic": "الشرح",
+    "name_simple": "Ash-Sharh",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Melapangkan"
+    },
+    "verses_count": 8
+  },
+  {
+    "bismillah_pre": true,
+    "id": 95,
+    "name_arabic": "التين",
+    "name_simple": "At-Tin",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Buah Tin"
+    },
+    "verses_count": 8
+  },
+  {
+    "bismillah_pre": true,
+    "id": 96,
+    "name_arabic": "العلق",
+    "name_simple": "Al-'Alaq",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Segumpal Darah"
+    },
+    "verses_count": 19
+  },
+  {
+    "bismillah_pre": true,
+    "id": 97,
+    "name_arabic": "القدر",
+    "name_simple": "Al-Qadr",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Kemuliaan"
+    },
+    "verses_count": 5
+  },
+  {
+    "bismillah_pre": true,
+    "id": 98,
+    "name_arabic": "البينة",
+    "name_simple": "Al-Bayyinah",
+    "revelation_place": "madinah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Pembuktian"
+    },
+    "verses_count": 8
+  },
+  {
+    "bismillah_pre": true,
+    "id": 99,
+    "name_arabic": "الزلزلة",
+    "name_simple": "Az-Zalzalah",
+    "revelation_place": "madinah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Kegoncangan"
+    },
+    "verses_count": 8
+  },
+  {
+    "bismillah_pre": true,
+    "id": 100,
+    "name_arabic": "العاديات",
+    "name_simple": "Al-'Adiyat",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Berlari Kencang"
+    },
+    "verses_count": 11
+  },
+  {
+    "bismillah_pre": true,
+    "id": 101,
+    "name_arabic": "القارعة",
+    "name_simple": "Al-Qari'ah",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Hari Kiamat"
+    },
+    "verses_count": 11
+  },
+  {
+    "bismillah_pre": true,
+    "id": 102,
+    "name_arabic": "التكاثر",
+    "name_simple": "At-Takathur",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Bermegah-megahan"
+    },
+    "verses_count": 8
+  },
+  {
+    "bismillah_pre": true,
+    "id": 103,
+    "name_arabic": "العصر",
+    "name_simple": "Al-'Asr",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Waktu Sore"
+    },
+    "verses_count": 3
+  },
+  {
+    "bismillah_pre": true,
+    "id": 104,
+    "name_arabic": "الهمزة",
+    "name_simple": "Al-Humazah",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Pengumpat"
+    },
+    "verses_count": 9
+  },
+  {
+    "bismillah_pre": true,
+    "id": 105,
+    "name_arabic": "الفيل",
+    "name_simple": "Al-Fil",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Gajah"
+    },
+    "verses_count": 5
+  },
+  {
+    "bismillah_pre": true,
+    "id": 106,
+    "name_arabic": "قريش",
+    "name_simple": "Quraysh",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Suku Quraisy"
+    },
+    "verses_count": 4
+  },
+  {
+    "bismillah_pre": true,
+    "id": 107,
+    "name_arabic": "الماعون",
+    "name_simple": "Al-Ma'un",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Barang yang Berguna"
+    },
+    "verses_count": 7
+  },
+  {
+    "bismillah_pre": true,
+    "id": 108,
+    "name_arabic": "الكوثر",
+    "name_simple": "Al-Kawthar",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Nikmat Berlimpah"
+    },
+    "verses_count": 3
+  },
+  {
+    "bismillah_pre": true,
+    "id": 109,
+    "name_arabic": "الكافرون",
+    "name_simple": "Al-Kafirun",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Orang-orang Kafir"
+    },
+    "verses_count": 6
+  },
+  {
+    "bismillah_pre": true,
+    "id": 110,
+    "name_arabic": "النصر",
+    "name_simple": "An-Nasr",
+    "revelation_place": "madinah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Pertolongan"
+    },
+    "verses_count": 3
+  },
+  {
+    "bismillah_pre": true,
+    "id": 111,
+    "name_arabic": "المسد",
+    "name_simple": "Al-Masad",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Gejolak Api (Sabut)"
+    },
+    "verses_count": 5
+  },
+  {
+    "bismillah_pre": true,
+    "id": 112,
+    "name_arabic": "الإخلاص",
+    "name_simple": "Al-Ikhlas",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Ikhlash"
+    },
+    "verses_count": 4
+  },
+  {
+    "bismillah_pre": true,
+    "id": 113,
+    "name_arabic": "الفلق",
+    "name_simple": "Al-Falaq",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Waktu Shubuh"
+    },
+    "verses_count": 5
+  },
+  {
+    "bismillah_pre": true,
+    "id": 114,
+    "name_arabic": "الناس",
+    "name_simple": "An-Nas",
+    "revelation_place": "makkah",
+    "translated_name": {
+      "language_name": "indonesian",
+      "name": "Umat Manusia"
+    },
+    "verses_count": 6
+  }
+]

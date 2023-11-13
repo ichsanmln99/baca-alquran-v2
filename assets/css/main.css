@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "alqalam";
+    src: url("/al_qalam_quran_majeed.woff") format("woff"),
+      url("/al_qalam_quran_majeed.woff2") format("woff"),
+      url("/al_qalam_quran_majeed.ttf") format("truetype");
+    display: swap;
+  }
+}
