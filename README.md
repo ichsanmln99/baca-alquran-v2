@@ -1,75 +1,64 @@
-# Nuxt 3 Minimal Starter
+<br/>
+<p align="center">
+  <a href="https://github.com/ichsanmln99/baca-alquran-v2">
+    <img src="public/icons/icon-96x96.png" alt="Logo" width="80" height="80">
+  </a>
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+  <h3 align="center">baca-alquran.com</h3>
 
-## Setup
+  <p align="center">
+    Aplikasi Baca Alquran Online dengan Audio dan Terjemah Bahasa Indonesia
+    <br/>
+    <br/>
+    <a href="https://github.com/ichsanmln99/baca-alquran-v2"><strong>Explore the docs »</strong></a>
+    <br/>
+    <br/>
+    <a href="https://github.com/ichsanmln99/baca-alquran-v2">View Demo</a>
+    .
+    <a href="https://github.com/ichsanmln99/baca-alquran-v2/issues">Report Bug</a>
+    .
+    <a href="https://github.com/ichsanmln99/baca-alquran-v2/issues">Request Feature</a>
+  </p>
+</p>
 
-Make sure to install the dependencies:
+![NuxtJs](https://img.shields.io/badge/Nuxt%203-Typescript-blue?logo=Nuxt.js)
+![Contributors](https://img.shields.io/github/contributors/ichsanmln99/baca-alquran-v2?color=dark-green)
+![Forks](https://img.shields.io/github/forks/ichsanmln99/baca-alquran-v2?style=social)
+![Stargazers](https://img.shields.io/github/stars/ichsanmln99/baca-alquran-v2?style=social)
 
-```bash
-# npm
+## Screenshots
+
+![Screen Shot](public/screenshots/home.png)
+![Screen Shot](public/screenshots/chapter.png)
+
+## Live Website
+
+<https://www.baca-alquran.com/>
+
+## Installation
+
+```sh
+
+git clone https://github.com/ichsanmln99/baca-alquran-v2.git
+
+cd baca-alquran-v2
+
 npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+# development
 npm run dev
 
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
+# production
 npm run build
 
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
+# preview
 npm run preview
 
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Development akan berjalan pada `http://localhost:3000`
+
+## Credits
+
+- Quran API from [Quran.com API](https://quran.com/en/developers)
+- Icon from [Nuxt Icon](https://nuxt.com/modules/icon)
