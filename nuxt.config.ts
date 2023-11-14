@@ -73,5 +73,11 @@ export default defineNuxtConfig({
       API_BASE_URL: process.env.API_BASE_URL,
     },
   },
-  modules: ["@vueuse/nuxt", "nuxt-icon", "@pinia/nuxt"],
+  modules: [
+    "@vueuse/nuxt",
+    "nuxt-icon",
+    "@pinia/nuxt",
+    "@nuxtjs/robots",
+    "nuxt-simple-sitemap",
+  ],
 });
