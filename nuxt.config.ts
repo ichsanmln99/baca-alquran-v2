@@ -1,5 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  site: {
+    url: process.env.NUXT_PUBLIC_SITE_URL,
+  },
   app: {
     head: {
       charset: "utf-8",
