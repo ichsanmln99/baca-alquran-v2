@@ -3,6 +3,17 @@ export default defineNuxtConfig({
   site: {
     url: process.env.NUXT_PUBLIC_SITE_URL,
   },
+  sitemap: {
+    urls: () => {
+      const urls: string[] = ["/", "https://ichsanmaulana.com"];
+
+      for (let index = 0; index < 114; index++) {
+        urls.push(`/chapter/${index + 1}`);
+      }
+
+      return urls;
+    },
+  },
   app: {
     head: {
       charset: "utf-8",
@@ -74,6 +85,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       API_BASE_URL: process.env.API_BASE_URL,
+      PUBLIC_SITE_URL: process.env.NUXT_PUBLIC_SITE_URL,
     },
   },
   modules: [
