@@ -94,6 +94,5 @@ export default defineNuxtConfig({
     "@pinia/nuxt",
     "@nuxtjs/robots",
     "nuxt-simple-sitemap",
-    "nuxt-vercel-analytics",
   ],
 });
