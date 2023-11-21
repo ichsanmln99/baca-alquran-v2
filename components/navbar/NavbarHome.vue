@@ -1,8 +1,8 @@
 <template>
   <div
-    class="navbar backdrop-blur-md bg-base-100/50 p-4 border-b sticky top-0 z-10 navbar-scroll shadow-xl shadow-base-200/30"
+    class="navbar items-center backdrop-blur-md bg-base-100/50 p-4 border-b border-base-200 sticky top-0 z-10 navbar-scroll shadow-xl shadow-base-200/30 gap-4"
   >
-    <router-link to="/" class="flex-0 text-4xl pr-4 select-none">
+    <router-link to="/" class="flex-0 text-4xl select-none">
       <img
         v-once
         src="/bq-40x40.svg"

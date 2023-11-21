@@ -1,6 +1,6 @@
 <template>
   <div
-    class="navbar bg-base-100 p-4 border-b sticky top-0 z-10 navbar-scroll shadow-xl shadow-base-200/30"
+    class="navbar bg-base-100 p-4 border-b border-base-200 sticky top-0 z-10 navbar-scroll shadow-xl shadow-base-200/30"
   >
     <div class="gap-4">
       <div class="flex-none">

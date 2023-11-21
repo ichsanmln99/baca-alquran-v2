@@ -1,7 +1,8 @@
-/** @type {import('tailwindcss').Config} */
+const daisyuiThemes = require("daisyui/src/theming/themes");
 const defaultTheme = require("tailwindcss/defaultTheme");
 
 export default {
+  darkMode: ["class", '[data-theme="dark"]'],
   content: [
     "./components/**/*.{js,vue,ts}",
     "./layouts/**/*.vue",
@@ -23,6 +24,20 @@ export default {
   },
   plugins: [require("daisyui")],
   daisyui: {
-    themes: ["cupcake"],
+    themes: [
+      {
+        light: {
+          ...daisyuiThemes.cupcake,
+        },
+      },
+      {
+        dark: {
+          ...daisyuiThemes.business,
+          primary: "#65c3c8",
+          secondary: "#ef9fbc",
+          accent: "#eeaf3a",
+        },
+      },
+    ],
   },
 };

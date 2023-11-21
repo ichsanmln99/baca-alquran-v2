@@ -1,6 +1,7 @@
 <template>
   <div>
     <NavbarChapter />
+
     <div class="flex flex-col gap-4 md:p-4 p-2">
       <ChapterNavigation v-if="chapter" :id="chapter.id"></ChapterNavigation>
       <div
@@ -15,9 +16,11 @@
       </div>
       <template v-for="(verse, index) in verses" :key="index">
         <VerseItem
+          :id="verse.id"
           :verseKey="verse.verse_key"
           :number="verse.verse_number"
           :arabicWords="verse.words"
+          :arabic="verse.text_imlaei"
           :translate="verse.translations[0].text"
         ></VerseItem>
       </template>

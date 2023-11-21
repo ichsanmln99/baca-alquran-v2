@@ -24,7 +24,7 @@ export default defineNuxtConfig({
         {
           name: "description",
           content:
-            "Baca dan dengarkan audio Al-Quran 30 Juz dengan Terjemahan Bahasa Indonesia secara Online. Gratis tanpa iklan.",
+            "Baca dan dengarkan Al-Quran online di baca-alquran.com, aplikasi Al-Quran simpel untuk mendapatkan makna setiap ayat. Dengan terjemahan Bahasa Indonesia, nikmati kenyamanan membaca Al-Quran dari perangkat mobile atau desktop. Dapatkan pengalaman baca dan dengarkan audio Al-Quran 30 Juz secara online, tanpa iklan. Al-Quran Digital Online 30 Juz, dengan tulisan Arab, terjemahan Bahasa Indonesia, serta tafsir ayat, menjadi panduan spiritual Anda",
         },
         {
           name: "keywords",
@@ -44,7 +44,7 @@ export default defineNuxtConfig({
         {
           property: "og:description",
           content:
-            "Baca dan dengarkan audio Al-Quran 30 Juz dengan Terjemahan Bahasa Indonesia secara Online. Gratis tanpa iklan.",
+            "Baca dan dengarkan Al-Quran online di baca-alquran.com, aplikasi Al-Quran simpel untuk mendapatkan makna setiap ayat. Dengan terjemahan Bahasa Indonesia, nikmati kenyamanan membaca Al-Quran dari perangkat mobile atau desktop. Dapatkan pengalaman baca dan dengarkan audio Al-Quran 30 Juz secara online, tanpa iklan. Al-Quran Digital Online 30 Juz, dengan tulisan Arab, terjemahan Bahasa Indonesia, serta tafsir ayat, menjadi panduan spiritual Anda",
         },
         { property: "og:image", content: "/social-banner.jpg" },
         {
@@ -57,7 +57,7 @@ export default defineNuxtConfig({
         {
           property: "twitter:description",
           content:
-            "Baca dan dengarkan audio Al-Quran 30 Juz dengan Terjemahan Bahasa Indonesia secara Online. Gratis tanpa iklan.",
+            "Baca dan dengarkan Al-Quran online di baca-alquran.com, aplikasi Al-Quran simpel untuk mendapatkan makna setiap ayat. Dengan terjemahan Bahasa Indonesia, nikmati kenyamanan membaca Al-Quran dari perangkat mobile atau desktop. Dapatkan pengalaman baca dan dengarkan audio Al-Quran 30 Juz secara online, tanpa iklan. Al-Quran Digital Online 30 Juz, dengan tulisan Arab, terjemahan Bahasa Indonesia, serta tafsir ayat, menjadi panduan spiritual Anda",
         },
         { property: "twitter:image", content: "/social-banner.jpg" },
         {
@@ -84,7 +84,8 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      API_BASE_URL: process.env.API_BASE_URL,
+      QURAN_COM_API_BASE_URL: process.env.QURAN_COM_API_BASE_URL,
+      KEMENAG_API_BASE_URL: process.env.KEMENAG_API_BASE_URL,
       PUBLIC_SITE_URL: process.env.NUXT_PUBLIC_SITE_URL,
     },
   },
@@ -94,5 +95,68 @@ export default defineNuxtConfig({
     "@pinia/nuxt",
     "@nuxtjs/robots",
     "nuxt-simple-sitemap",
+    "@vite-pwa/nuxt",
   ],
+  pwa: {
+    registerType: "autoUpdate",
+    workbox: {
+      navigateFallback: "/",
+      globPatterns: ["**/*.{js,css,html,ico,png,svg}"],
+    },
+    includeAssets: ["favicon.ico", "apple-touch-icon.png"],
+    manifest: {
+      name: "baca-alquran.com",
+      short_name: "Baca Al-Quran",
+      description: "Baca Al-Quran Berbahasa Indonesia",
+      theme_color: "#FBF7F5",
+      display: "standalone",
+      icons: [
+        {
+          src: "/icons/icon-512x512.png",
+          sizes: "512x512",
+          type: "image/png",
+        },
+        {
+          src: "/icons/icon-384x384.png",
+          sizes: "384x384",
+          type: "image/png",
+        },
+        {
+          src: "/icons/icon-192x192.png",
+          sizes: "192x192",
+          type: "image/png",
+        },
+        {
+          src: "/icons/icon-152x152.png",
+          sizes: "152x152",
+          type: "image/png",
+        },
+        {
+          src: "/icons/icon-144x144.png",
+          sizes: "144x144",
+          type: "image/png",
+        },
+        {
+          src: "/icons/icon-128x128.png",
+          sizes: "128x128",
+          type: "image/png",
+        },
+        {
+          src: "/icons/icon-96x96.png",
+          sizes: "96x96",
+          type: "image/png",
+        },
+        {
+          src: "/icons/icon-72x72.png",
+          sizes: "72x72",
+          type: "image/png",
+        },
+        {
+          src: "/icons/icon-48x48.png",
+          sizes: "48x48",
+          type: "image/png",
+        },
+      ],
+    },
+  },
 });

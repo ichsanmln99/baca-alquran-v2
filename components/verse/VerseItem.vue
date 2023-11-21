@@ -1,14 +1,22 @@
 <template>
   <div
     ref="verseRef"
-    class="md:p-4 p-2 flex flex-col gap-4 rounded-2xl scroll-mt-24 hover:bg-base-200/25"
-    :class="{ 'bg-base-200/50 hover:hover:bg-base-200/50': isVerseActive }"
+    class="md:p-4 p-2 flex flex-col gap-4 rounded-2xl scroll-mt-24 hover:bg-base-200/25 group"
+    :class="{
+      'bg-base-200/50 hover:bg-base-200/50 dark:bg-base-200 dark:hover:bg-base-200':
+        isVerseActive,
+    }"
   >
     <div class="flex justify-between">
-      <div
-        class="bg-base-300 mask mask-circle w-8 h-8 text-sm flex items-center justify-center"
-      >
-        <span>{{ number }}</span>
+      <div class="flex gap-2">
+        <div
+          class="bg-base-300 mask mask-circle w-8 h-8 text-sm flex items-center justify-center"
+        >
+          <span>{{ number }}</span>
+        </div>
+        <button @click="openTafsirModal()" class="btn btn-circle btn-sm">
+          <Icon size="16" name="mi:book"></Icon>
+        </button>
       </div>
       <VerseAudioButton :verseKey="verseKey" />
     </div>
@@ -18,7 +26,7 @@
         <div
           class="inline-block px-1"
           :class="{
-            'text-primary-focus': activeWordPosition === word.position,
+            'text-primary': activeWordPosition === word.position,
           }"
           :key="index"
           v-for="(word, index) in arabicWords"
@@ -34,13 +42,19 @@
 
 <script setup lang="ts">
 import { useChapterStore } from "~/store/chapter";
+import VerseTafsirModalVue from "@/components/verse/VerseTafsirModal.vue";
 import type { IVerseWords } from "@/types/verses.interface";
 import { useIdle } from "@vueuse/core";
+import { useModalStore } from "~/store/modal";
+
+const modalStore = useModalStore();
 
 const props = defineProps<{
+  id: number;
   verseKey: string;
   number: number;
   translate: string;
+  arabic?: string;
   arabicWords: IVerseWords[];
 }>();
 
@@ -83,4 +97,16 @@ const activeWordPosition = computed(() => {
 
   return null;
 });
+
+function openTafsirModal() {
+  modalStore.openModal({
+    component: VerseTafsirModalVue,
+    props: {
+      id: props.id,
+      arabic: props.arabic,
+      number: props.number,
+      translate: props.translate,
+    },
+  });
+}
 </script>

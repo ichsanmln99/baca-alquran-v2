@@ -6,7 +6,7 @@
           path: `/chapter/${chapterNavigation.previous.id}`,
         }"
         v-if="chapterNavigation.previous"
-        class="btn btn-xs btn-link text-neutral no-underline"
+        class="btn btn-xs btn-link text-neutral dark:text-primary no-underline"
       >
         <Icon name="iconamoon:arrow-left-2-bold" />
         {{ chapterNavigation.previous.name_simple }}
@@ -23,7 +23,7 @@
           path: `/chapter/${chapterNavigation.next.id}`,
         }"
         v-if="chapterNavigation.next"
-        class="btn btn-xs btn-link text-neutral no-underline"
+        class="btn btn-xs btn-link text-neutral dark:text-primary no-underline"
       >
         {{ chapterNavigation.next.name_simple }}
         <Icon name="iconamoon:arrow-right-2-bold" />

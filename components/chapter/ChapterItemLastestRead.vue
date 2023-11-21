@@ -1,5 +1,5 @@
 <template>
-  <div v-if="latestSurahRead" class="border-b pb-3">
+  <div v-if="latestSurahRead" class="border-b border-base-200 pb-3">
     <div class="text-sm mb-2 opacity-50">Terakhir dibaca</div>
     <ChapterItem
       :id="latestSurahRead.id"
