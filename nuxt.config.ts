@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   },
   sitemap: {
     urls: () => {
-      const urls: string[] = ["/", "https://ichsanmaulana.com"];
+      const urls: string[] = ["/"];
 
       for (let index = 0; index < 114; index++) {
         urls.push(`/chapter/${index + 1}`);
