@@ -28,7 +28,11 @@ const router = useRouter();
 const modalStore = useModalStore();
 
 router.beforeEach((to, from, next) => {
-  modalStore.closeModal();
-  next();
+  if (modalStore.isOpen) {
+    modalStore.closeModal();
+    return false;
+  } else {
+    return next();
+  }
 });
 </script>
