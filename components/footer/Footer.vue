@@ -41,6 +41,7 @@
 </template>
 
 <script setup lang="ts">
+import daisyuiColors from "daisyui/src/theming/themes";
 import { useDark, useToggle } from "@vueuse/core";
 const isDark = useDark({
   initialValue: "auto",
@@ -50,5 +51,15 @@ const isDark = useDark({
   valueLight: "light",
 });
 
-const toggleDarkMode = useToggle(isDark);
+const toggleDark = useToggle(isDark);
+
+function toggleDarkMode() {
+  toggleDark();
+
+  const bgColor = isDark.value ? "#1c1c1c" : "#efeae6";
+
+  useHead({
+    meta: [{ name: "theme-color", content: bgColor }],
+  });
+}
 </script>
