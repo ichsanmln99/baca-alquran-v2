@@ -1,4 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+
 export default defineNuxtConfig({
   site: {
     url: process.env.NUXT_PUBLIC_SITE_URL,
@@ -31,7 +32,7 @@ export default defineNuxtConfig({
           content:
             "Baca Al-Quran Online, Terjemahan Al-Quran Bahasa Indonesia, Al-Quran 30 Juz, Bacaan Al-Quran Terbaik, Kajian Al-Quran Online, Panduan Belajar Al-Quran, Baca Al-Quran Gratis, Tafsir Al-Quran Online, Bimbingan Al-Quran Digital, Pengajaran Al-Quran Online, Quran Recitation Online, Islamic Learning Platform, Quranic Interpretation, Quranic Guidance, Free Quran Reading, Quranic Studies, Al-Quran Lessons, Learn Quranic Arabic, Quranic Wisdom, Quranic Insights.",
         },
-        { name: "theme-color", content: "#FBF7F5" },
+        { name: "theme-color", content: "#efeae6" },
         {
           name: "title",
           content: "baca-alquran.com — Baca Al-Quran Bahasa Indonesia",
@@ -65,6 +66,17 @@ export default defineNuxtConfig({
           content: "baca-alquran.com — Baca Al-Quran Bahasa Indonesia",
         },
         { property: "twitter:url", content: "baca-alquran.com" },
+      ],
+      link: [
+        {
+          rel: "apple-touch-icon",
+          href: "/icons/icon-152x152.png",
+          sizes: "152x152",
+        },
+        {
+          rel: "icon",
+          href: "/favicon.ico",
+        },
       ],
     },
   },
@@ -103,22 +115,17 @@ export default defineNuxtConfig({
       navigateFallback: "/",
       globPatterns: ["**/*.{js,css,html,ico,png,svg}"],
     },
-    includeAssets: ["favicon.ico", "apple-touch-icon.png"],
     manifest: {
+      start_url: "/",
       name: "baca-alquran.com",
       short_name: "Baca Al-Quran",
       description: "Baca Al-Quran Berbahasa Indonesia",
-      theme_color: "#FBF7F5",
+      theme_color: "#efeae6",
       display: "standalone",
       icons: [
         {
           src: "/icons/icon-512x512.png",
           sizes: "512x512",
-          type: "image/png",
-        },
-        {
-          src: "/icons/icon-384x384.png",
-          sizes: "384x384",
           type: "image/png",
         },
         {
