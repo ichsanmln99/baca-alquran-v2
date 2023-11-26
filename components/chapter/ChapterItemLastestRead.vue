@@ -16,7 +16,7 @@ import { type IChapter } from "@/types/chapters.interface";
 const latestSurahRead = ref<IChapter>();
 
 onMounted(() => {
-  if (typeof localStorage["latest-surah-read"] === "object") {
+  if (typeof localStorage["latest-surah-read"] !== "undefined") {
     latestSurahRead.value = JSON.parse(localStorage["latest-surah-read"]);
   }
 });
