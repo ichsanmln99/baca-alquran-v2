@@ -1,20 +1,15 @@
 <template>
   <Teleport to="body">
     <dialog
+      :key="id"
+      :id="id"
       class="modal modal-bottom"
-      :class="{ 'modal-open': modalStore.isOpen }"
+      :class="{ 'modal-open': modalStore.isModalOpen(id) }"
     >
       <div class="modal-box max-w-lg w-full mx-auto h-5/6">
-        <component
-          :is="modalStore.modalState?.component"
-          v-bind="modalStore.modalState?.props"
-        ></component>
+        <slot></slot>
       </div>
-      <form
-        method="dialog"
-        @click="modalStore.closeModal()"
-        class="modal-backdrop"
-      >
+      <form method="dialog" @click="closeModal()" class="modal-backdrop">
         <button></button>
       </form>
     </dialog>
@@ -24,15 +19,29 @@
 <script setup lang="ts">
 import { useModalStore } from "~/store/modal";
 
-const router = useRouter();
+const props = withDefaults(
+  defineProps<{
+    id: string;
+  }>(),
+  {
+    id: "modal",
+  }
+);
+
+const emit = defineEmits(["close"]);
+
 const modalStore = useModalStore();
 
-router.beforeEach((to, from, next) => {
-  if (modalStore.isOpen) {
-    modalStore.closeModal();
-    return false;
-  } else {
-    return next();
-  }
+onMounted(() => {
+  modalStore.registerModal(props.id);
 });
+
+onBeforeUnmount(() => {
+  modalStore.destroyModal(props.id);
+});
+
+function closeModal() {
+  modalStore.closeModal(props.id);
+  emit("close");
+}
 </script>

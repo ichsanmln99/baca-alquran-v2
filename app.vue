@@ -2,7 +2,6 @@
   <VitePwaManifest />
   <NuxtLayout>
     <NuxtPage></NuxtPage>
-    <ModalWrapper />
   </NuxtLayout>
 </template>
 

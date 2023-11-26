@@ -42,12 +42,9 @@
 
 <script setup lang="ts">
 import { useChapterStore } from "~/store/chapter";
-import VerseTafsirModalVue from "@/components/verse/VerseTafsirModal.vue";
 import type { IVerseWords } from "@/types/verses.interface";
 import { useIdle } from "@vueuse/core";
 import { useModalStore } from "~/store/modal";
-
-const modalStore = useModalStore();
 
 const props = defineProps<{
   id: number;
@@ -61,17 +58,16 @@ const props = defineProps<{
 const IDLE_TIME = 3 * 1000;
 const { idle } = useIdle(IDLE_TIME); // 5 min
 const chapterStore = useChapterStore();
+const modalStore = useModalStore();
 const verseRef = ref();
+const route = useRoute();
+const router = useRouter();
 
 watch(
   () => chapterStore.activeTimestamp?.verse_key,
   () => {
     nextTick(() => {
-      if (idle.value && isVerseActive.value) {
-        verseRef.value.scrollIntoView({
-          behavior: "smooth",
-        });
-      }
+      scrollToVerseRef();
     });
   }
 );
@@ -99,14 +95,25 @@ const activeWordPosition = computed(() => {
 });
 
 function openTafsirModal() {
-  modalStore.openModal({
-    component: VerseTafsirModalVue,
-    props: {
-      id: props.id,
-      arabic: props.arabic,
-      number: props.number,
-      translate: props.translate,
-    },
+  modalStore.registerModal("VerseTafsirModal");
+
+  modalStore.setModalData("VerseTafsirModal", {
+    id: props.id,
+    number: props.number,
+    arabic: props.arabic,
+    translate: props.translate,
   });
+
+  router.push({
+    path: `/chapter/${route.params.chapterId}/tafsir/${props.id}`,
+  });
+}
+
+function scrollToVerseRef() {
+  if (idle.value && isVerseActive.value) {
+    verseRef.value.scrollIntoView({
+      behavior: "smooth",
+    });
+  }
 }
 </script>

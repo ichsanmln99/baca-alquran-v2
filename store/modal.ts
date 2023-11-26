@@ -1,37 +1,93 @@
-import type { Component } from "vue";
-
-export interface IModalState {
-  component: null | Component;
-  props?: object;
+interface IModals {
+  id: string;
+  isOpen: boolean;
+  data: {
+    [key: string]: any;
+  };
 }
 
-const basicState = {
-  component: null,
-  props: {},
-};
-
 export const useModalStore = defineStore("modal", () => {
-  const modalState = shallowRef<IModalState>(basicState);
-  const isOpen = ref(false);
+  const modals = ref<IModals[]>([]);
 
-  function openModal(payload: IModalState) {
-    const { component, props } = payload;
-    modalState.value = {
-      component,
-      props,
-    };
-
-    isOpen.value = true;
+  function openModal(id: string) {
+    const modal = getModalState(id);
+    if (modal) {
+      modal.isOpen = true;
+    }
   }
 
-  function closeModal() {
-    isOpen.value = false;
+  function closeModal(id: string) {
+    const modal = getModalState(id);
+    if (modal) {
+      modal.isOpen = false;
+    }
+  }
+
+  function isModalOpen(id: string) {
+    const modal = getModalState(id);
+
+    if (modal) {
+      return modal.isOpen;
+    }
+    return false;
+  }
+
+  function getModalData(id: string) {
+    const modal = getModalState(id);
+
+    if (modal) {
+      return modal.data;
+    }
+    return null;
+  }
+
+  function setModalData(id: string, data: object) {
+    const modal = getModalState(id);
+
+    if (modal) {
+      modal.data = data;
+    }
+  }
+
+  function getModalState(id: string) {
+    const modal = modals.value.find((modal) => modal.id === id);
+
+    if (modal) {
+      return modal;
+    }
+    return null;
+  }
+
+  function registerModal(id: string) {
+    const modalExist = getModalState(id);
+
+    if (!modalExist) {
+      const modal = {
+        id,
+        isOpen: false,
+        data: {},
+      };
+
+      modals.value.push(modal);
+    }
+  }
+
+  function destroyModal(id: string) {
+    const index = modals.value.findIndex((modal) => modal.id === id);
+    if (index > -1) {
+      modals.value.splice(index, 1);
+    }
   }
 
   return {
-    isOpen,
-    modalState,
+    modals,
     openModal,
     closeModal,
+    registerModal,
+    destroyModal,
+    isModalOpen,
+    getModalData,
+    setModalData,
+    getModalState,
   };
 });

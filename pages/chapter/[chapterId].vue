@@ -42,6 +42,8 @@
         </template>
       </InfiniteLoading>
     </div>
+
+    <NuxtPage></NuxtPage>
   </div>
 </template>
 
@@ -53,19 +55,19 @@ import { onKeyStroke } from "@vueuse/core";
 
 const { $api } = useNuxtApp();
 const route = useRoute();
-const id = parseInt(route.params.id as string);
+const id = parseInt(route.params.chapterId as string);
 const verses = ref<IVerse[]>([]);
 const versesLoad = ref(false);
 const lastPage = ref(1);
 const chapterStore = useChapterStore();
+
 const { findChapter } = useChapters();
 
 const chapter = computed(() => findChapter(id));
 
 useSeoMeta({
   title: `Surah ${chapter.value?.name_simple} - Baca Al-Quran Bahasa Indonesia`,
-  description:
-    "Baca dan dengarkan audio Al-Quran 30 Juz dengan Terjemahan Bahasa Indonesia secara Online. Gratis tanpa iklan.",
+  description: `Baca Surah ${chapter.value?.name_simple} lengkap dengan terjemahan dan tafsirnya. Baca dan dengarkan Al-Quran online di baca-alquran.com, aplikasi Al-Quran simpel untuk mendapatkan makna setiap ayat. Dengan terjemahan Bahasa Indonesia, nikmati kenyamanan membaca Al-Quran dari perangkat mobile atau desktop. Dapatkan pengalaman baca dan dengarkan audio Al-Quran 30 Juz secara online, tanpa iklan. Al-Quran Digital Online 30 Juz, dengan tulisan Arab, terjemahan Bahasa Indonesia, serta tafsir ayat, menjadi panduan spiritual Anda`,
 });
 
 onMounted(() => {
@@ -81,11 +83,8 @@ onBeforeUnmount(() => {
 
 onKeyStroke(" ", (e) => {
   e.preventDefault();
-  if (chapterStore.isPlayed) {
-    chapterStore.pauseAudio();
-  } else if (chapterStore.isPaused) {
-    chapterStore.playAudio();
-  }
+
+  togglePause();
 });
 
 function fetchVerses(page: number = 1) {
@@ -113,5 +112,13 @@ async function loadVerses($state: {
 
 function storeLatestSurahRead() {
   localStorage.setItem("latest-surah-read", JSON.stringify(chapter.value));
+}
+
+function togglePause() {
+  if (chapterStore.isPlayed) {
+    chapterStore.pauseAudio();
+  } else if (chapterStore.isPaused) {
+    chapterStore.playAudio();
+  }
 }
 </script>
