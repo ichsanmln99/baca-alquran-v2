@@ -64,10 +64,20 @@ const chapterStore = useChapterStore();
 const { findChapter } = useChapters();
 
 const chapter = computed(() => findChapter(id));
+const config = useRuntimeConfig();
 
 useSeoMeta({
   title: `Surah ${chapter.value?.name_simple} - Baca Al-Quran Bahasa Indonesia`,
   description: `Baca Surah ${chapter.value?.name_simple} lengkap dengan terjemahan dan tafsirnya. Baca dan dengarkan Al-Quran online di baca-alquran.com, aplikasi Al-Quran simpel untuk mendapatkan makna setiap ayat. Dengan terjemahan Bahasa Indonesia, nikmati kenyamanan membaca Al-Quran dari perangkat mobile atau desktop. Dapatkan pengalaman baca dan dengarkan audio Al-Quran 30 Juz secara online, tanpa iklan. Al-Quran Digital Online 30 Juz, dengan tulisan Arab, terjemahan Bahasa Indonesia, serta tafsir ayat, menjadi panduan spiritual Anda`,
+});
+
+useHead({
+  link: [
+    {
+      rel: "canonical",
+      href: `${config.public.PUBLIC_SITE_URL}/chapter/${id}`,
+    },
+  ],
 });
 
 onMounted(() => {
