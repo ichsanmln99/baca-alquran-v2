@@ -15,7 +15,9 @@
       </template>
 
       <template v-if="!chapterList.length && search">
-        <div class="flex flex-col justify-center text-center p-10 opacity-50">
+        <div
+          class="flex flex-col justify-center text-center p-10 text-base-content/40"
+        >
           <div class="p-5">
             <Icon size="48" name="iconamoon:search"></Icon>
           </div>

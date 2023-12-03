@@ -7,16 +7,25 @@
         !chapterStore.IsStoped
       "
     >
-      <button @click="chapterStore.stopAudio" class="btn btn-sm btn-circle">
+      <button
+        aria-label="Hentikan Bacaan"
+        @click="chapterStore.stopAudio"
+        class="btn btn-sm btn-circle"
+      >
         <Icon name="iconamoon:player-stop-fill"></Icon>
       </button>
       <template v-if="chapterStore.isPaused">
-        <button @click="chapterStore.playAudio" class="btn btn-sm btn-circle">
+        <button
+          aria-label="Dengarkan Bacaan"
+          @click="chapterStore.playAudio"
+          class="btn btn-sm btn-circle"
+        >
           <Icon name="iconamoon:player-play-fill"></Icon>
         </button>
       </template>
       <template v-if="chapterStore.isPlayed">
         <button
+          aria-label="Jeda Bacaan"
           @click="chapterStore.pauseAudio"
           class="btn btn-sm btn-circle btn-primary"
         >
@@ -25,7 +34,11 @@
       </template>
     </template>
     <template v-else>
-      <button @click="initiateAudio()" class="btn btn-sm btn-circle">
+      <button
+        aria-label="Dengarkan Bacaan"
+        @click="initiateAudio()"
+        class="btn btn-sm btn-circle"
+      >
         <Icon name="iconamoon:player-play-fill"></Icon>
       </button>
     </template>

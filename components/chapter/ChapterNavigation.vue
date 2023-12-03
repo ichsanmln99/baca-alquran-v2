@@ -13,7 +13,7 @@
       </NuxtLink>
     </div>
     <div class="absolute left-1/2 -translate-x-1/2">
-      <p v-if="chapterNavigation.current" class="text-xs text-neutral/30">
+      <p v-if="chapterNavigation.current" class="text-xs text-base-content/40">
         {{ chapterNavigation.current.id }}/114
       </p>
     </div>

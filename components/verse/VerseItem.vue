@@ -14,7 +14,11 @@
         >
           <span>{{ number }}</span>
         </div>
-        <button @click="openTafsirModal()" class="btn btn-circle btn-sm">
+        <button
+          @click="openTafsirModal()"
+          aria-label="tafsir"
+          class="btn btn-circle btn-sm"
+        >
           <Icon size="16" name="mi:book"></Icon>
         </button>
       </div>
@@ -36,7 +40,7 @@
       </div>
     </div>
 
-    <p class="text-sm opacity-80" v-html="translate"></p>
+    <p class="text-sm text-base-content/80" v-html="translate"></p>
   </div>
 </template>
 

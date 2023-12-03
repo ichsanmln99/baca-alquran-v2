@@ -20,6 +20,9 @@ export default defineNuxtConfig({
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
       title: "baca-alquran.com — Baca Al-Quran Bahasa Indonesia",
+      htmlAttrs: {
+        lang: "id",
+      },
       meta: [
         { name: "charset", content: "UTF-8" },
         {

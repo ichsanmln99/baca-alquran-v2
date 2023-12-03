@@ -6,6 +6,7 @@
       <div class="flex-none">
         <NuxtLink
           to="/"
+          aria-label="Kembali ke halaman utama"
           class="btn btn-circle btn-ghost border border-base-300"
         >
           <Icon size="24" name="iconamoon:arrow-left-2-bold" />
@@ -16,7 +17,7 @@
           <h1 class="font-semibold">
             Surat {{ chapterStore.activeChapter.name_simple }}
           </h1>
-          <p class="text-sm opacity-40 capitalize">
+          <p class="text-sm text-base-content/40 capitalize">
             {{ `${chapterStore.activeChapter.translated_name.name}` }} •
             {{ chapterStore.activeChapter.verses_count }} Ayat •
             {{ chapterStore.activeChapter.revelation_place }}

@@ -18,7 +18,10 @@
           <p class="py-4 font-arabic text-3xl leading-loose" dir="rtl">
             {{ modalData?.arabic }}
           </p>
-          <p class="text-sm opacity-80" v-html="modalData?.translate"></p>
+          <p
+            class="text-sm text-base-content/80"
+            v-html="modalData?.translate"
+          ></p>
         </div>
 
         <p v-if="!loading" class="whitespace-pre-line leading-relaxed">

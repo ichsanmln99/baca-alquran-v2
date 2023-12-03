@@ -1,7 +1,7 @@
 import chapterJson from "@/assets/data/chapters.json";
 import type { IChapter } from "~/types/chapters.interface";
 
-export default function useChapters() {
+export const useChapters = () => {
   const data = ref<IChapter[]>(chapterJson);
 
   function findChapter(chapterId: Number) {
@@ -25,4 +25,4 @@ export default function useChapters() {
     findChapter,
     getChapterNavigation,
   };
-}
+};
