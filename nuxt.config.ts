@@ -19,7 +19,7 @@ export default defineNuxtConfig({
     head: {
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
-      title: "baca-alquran.com — Baca Al-Quran Bahasa Indonesia",
+      title: "Baca Al-Quran dengan Audio, Terjemahan, dan Tafsir Indonesia",
       htmlAttrs: {
         lang: "id",
       },
@@ -28,32 +28,30 @@ export default defineNuxtConfig({
         {
           name: "description",
           content:
-            "Baca dan dengarkan Al-Quran online di baca-alquran.com, aplikasi Al-Quran simpel untuk mendapatkan makna setiap ayat. Dengan terjemahan Bahasa Indonesia, nikmati kenyamanan membaca Al-Quran dari perangkat mobile atau desktop. Dapatkan pengalaman baca dan dengarkan audio Al-Quran 30 Juz secara online, tanpa iklan. Al-Quran Digital Online 30 Juz, dengan tulisan Arab, terjemahan Bahasa Indonesia, serta tafsir ayat, menjadi panduan spiritual Anda",
+            "Baca Al-Quran 30 Juz dengan Terjemahan Bahasa Indonesia, Tanda Waqaf, Audio Bacaan, dan Tafsir perayat, Lengkap! 📖✨ Baca Al-Quran beserta artinya lebih mudah di baca-alquran.com",
         },
         {
           name: "keywords",
           content:
-            "Baca Al-Quran Online, Terjemahan Al-Quran Bahasa Indonesia, Al-Quran 30 Juz, Bacaan Al-Quran Terbaik, Kajian Al-Quran Online, Panduan Belajar Al-Quran, Baca Al-Quran Gratis, Tafsir Al-Quran Online, Bimbingan Al-Quran Digital, Pengajaran Al-Quran Online, Quran Recitation Online, Islamic Learning Platform, Quranic Interpretation, Quranic Guidance, Free Quran Reading, Quranic Studies, Al-Quran Lessons, Learn Quranic Arabic, Quranic Wisdom, Quranic Insights.",
+            "al-quran, quran web, quran online, website quran, baca quran, quran digital, quran indonesia, quran terjemahan, quran tafsir, quran audio, quran mp3, quran indo",
         },
         { name: "theme-color", content: "#efeae6" },
         {
           name: "title",
-          content: "baca-alquran.com — Baca Al-Quran Bahasa Indonesia",
+          content:
+            "Baca Al-Quran dengan Audio, Terjemahan, dan Tafsir Indonesia",
         },
         { name: "viewport", content: "width=device-width,initial-scale=1" },
         {
-          name: "viewport",
-          content: "width=device-width, initial-scale=1.0, viewport-fit=cover",
-        },
-        {
           property: "og:description",
           content:
-            "Baca dan dengarkan Al-Quran online di baca-alquran.com, aplikasi Al-Quran simpel untuk mendapatkan makna setiap ayat. Dengan terjemahan Bahasa Indonesia, nikmati kenyamanan membaca Al-Quran dari perangkat mobile atau desktop. Dapatkan pengalaman baca dan dengarkan audio Al-Quran 30 Juz secara online, tanpa iklan. Al-Quran Digital Online 30 Juz, dengan tulisan Arab, terjemahan Bahasa Indonesia, serta tafsir ayat, menjadi panduan spiritual Anda",
+            "Baca Al-Quran 30 Juz dengan Terjemahan Bahasa Indonesia, Tanda Waqaf, Audio Bacaan, dan Tafsir perayat, Lengkap! 📖✨ Baca Al-Quran beserta artinya lebih mudah di baca-alquran.com",
         },
         { property: "og:image", content: "/social-banner.jpg" },
         {
           property: "og:title",
-          content: "baca-alquran.com — Baca Al-Quran Bahasa Indonesia",
+          content:
+            "Baca Al-Quran dengan Audio, Terjemahan, dan Tafsir Indonesia",
         },
         { property: "og:type", content: "website" },
         { property: "og:url", content: "baca-alquran.com" },
@@ -61,12 +59,13 @@ export default defineNuxtConfig({
         {
           property: "twitter:description",
           content:
-            "Baca dan dengarkan Al-Quran online di baca-alquran.com, aplikasi Al-Quran simpel untuk mendapatkan makna setiap ayat. Dengan terjemahan Bahasa Indonesia, nikmati kenyamanan membaca Al-Quran dari perangkat mobile atau desktop. Dapatkan pengalaman baca dan dengarkan audio Al-Quran 30 Juz secara online, tanpa iklan. Al-Quran Digital Online 30 Juz, dengan tulisan Arab, terjemahan Bahasa Indonesia, serta tafsir ayat, menjadi panduan spiritual Anda",
+            "Baca Al-Quran 30 Juz dengan Terjemahan Bahasa Indonesia, Tanda Waqaf, Audio Bacaan, dan Tafsir perayat, Lengkap! 📖✨ Baca Al-Quran beserta artinya lebih mudah di baca-alquran.com",
         },
         { property: "twitter:image", content: "/social-banner.jpg" },
         {
           property: "twitter:title",
-          content: "baca-alquran.com — Baca Al-Quran Bahasa Indonesia",
+          content:
+            "Baca Al-Quran dengan Audio, Terjemahan, dan Tafsir Indonesia",
         },
         { property: "twitter:url", content: "baca-alquran.com" },
       ],
