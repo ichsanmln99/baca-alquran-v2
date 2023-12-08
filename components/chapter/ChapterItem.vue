@@ -4,7 +4,7 @@
     :to="{ path: `/chapter/${id}` }"
   >
     <div
-      class="bg-base-300 mask mask-circle w-8 h-8 text-sm flex items-center justify-center"
+      class="bg-base-300 rounded-full w-8 h-8 text-sm flex items-center justify-center"
     >
       {{ id }}
     </div>

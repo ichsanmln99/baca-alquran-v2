@@ -13,22 +13,33 @@
       />
     </router-link>
     <div class="flex-1 gap-2 relative">
+      <Icon
+        v-show="!search"
+        name="iconamoon:search-bold"
+        class="text-base-content/30 absolute left-5"
+        size="20"
+      ></Icon>
       <input
         :value="search"
         @input="
           $emit('update:search', ($event.target as HTMLInputElement).value)
         "
-        class="input rounded-full w-full bg-transparent"
+        class="input rounded-full w-full input-ghost placeholder:pl-9 placeholder:text-base-content/30"
         type="text"
-        placeholder="Baca Surat apa hari ini?"
+        aria-label="Cari Surat"
+        placeholder="Baca Surat Apa Hari Ini?"
       />
       <button
         class="btn btn-xs absolute right-2 btn-circle"
+        aria-label="Hapus Pencarian"
         v-if="search"
         @click="clearSearch"
       >
         <Icon size="16" name="iconamoon:close" />
       </button>
+    </div>
+    <div class="flex-none">
+      <ConfigDrawerButton />
     </div>
   </div>
 </template>

@@ -1,9 +1,10 @@
 <template>
   <div
-    class="max-w-lg w-full mx-auto bg-base-100 h-full min-h-screen shadow-xl"
+    class="max-w-3xl w-full mx-auto bg-base-100 h-full min-h-screen shadow-xl"
   >
-    <slot></slot>
-
+    <ConfigDrawer>
+      <slot></slot>
+    </ConfigDrawer>
     <Footer />
   </div>
 </template>

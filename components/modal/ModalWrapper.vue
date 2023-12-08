@@ -3,10 +3,10 @@
     <dialog
       :key="id"
       :id="id"
-      class="modal modal-bottom"
+      class="modal modal-bottom sm:modal-middle"
       :class="{ 'modal-open': modalStore.isModalOpen(id) }"
     >
-      <div class="modal-box max-w-lg w-full mx-auto h-5/6">
+      <div class="modal-box !max-w-3xl w-full mx-auto h-5/6">
         <slot></slot>
       </div>
       <form method="dialog" @click="closeModal()" class="modal-backdrop">

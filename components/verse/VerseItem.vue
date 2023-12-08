@@ -10,11 +10,12 @@
     <div class="flex justify-between">
       <div class="flex gap-2">
         <div
-          class="bg-base-300 mask mask-circle w-8 h-8 text-sm flex items-center justify-center"
+          class="bg-base-300 rounded-full w-8 h-8 text-sm flex items-center justify-center"
         >
           <span>{{ number }}</span>
         </div>
         <button
+          title="Buka Tafsir"
           @click="openTafsirModal()"
           aria-label="tafsir"
           class="btn btn-circle btn-sm"

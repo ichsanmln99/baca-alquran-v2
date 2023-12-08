@@ -13,3 +13,7 @@
     font-display: swap;
   }
 }
+
+:root:has(:is(.drawer-toggle:checked)) {
+  overflow: hidden;
+}

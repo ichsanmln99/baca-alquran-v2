@@ -4,6 +4,7 @@
       <div class="pb-4">
         <form method="dialog">
           <button
+            aria-label="Tutup Modal Tafsir"
             @click="closeModal()"
             class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
           >

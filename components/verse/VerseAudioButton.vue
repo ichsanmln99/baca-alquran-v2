@@ -9,6 +9,7 @@
     >
       <button
         aria-label="Hentikan Bacaan"
+        title="Hentikan Bacaan"
         @click="chapterStore.stopAudio"
         class="btn btn-sm btn-circle"
       >
@@ -16,7 +17,8 @@
       </button>
       <template v-if="chapterStore.isPaused">
         <button
-          aria-label="Dengarkan Bacaan"
+          aria-label="Mulai Kembali Bacaan"
+          title="Mulai Kembali Bacaan"
           @click="chapterStore.playAudio"
           class="btn btn-sm btn-circle"
         >
@@ -26,6 +28,7 @@
       <template v-if="chapterStore.isPlayed">
         <button
           aria-label="Jeda Bacaan"
+          title="Jeda Bacaan"
           @click="chapterStore.pauseAudio"
           class="btn btn-sm btn-circle btn-primary"
         >
@@ -35,6 +38,7 @@
     </template>
     <template v-else>
       <button
+        title="Dengarkan Bacaan"
         aria-label="Dengarkan Bacaan"
         @click="initiateAudio()"
         class="btn btn-sm btn-circle"

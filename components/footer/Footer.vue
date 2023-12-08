@@ -14,12 +14,14 @@
       <span class="text-base-content/40 text-sm">baca-alquran.com</span>
     </a>
 
-    <p class="text-xs text-base-content/40 mb-2">
-      Baca dan dengarkan audio Al-Quran 30 Juz dengan Terjemahan Bahasa
-      Indonesia secara Online. Gratis tanpa iklan.
-    </p>
+    <div class="flex justify-center">
+      <div class="text-xs text-base-content/40 mb-2 sm:w-2/3">
+        Baca dan dengarkan audio Al-Quran 30 Juz dengan Terjemahan Bahasa
+        Indonesia secara Online. Gratis tanpa iklan.
+      </div>
+    </div>
 
-    <div class="flex justify-center mb-4">
+    <!-- <div class="flex justify-center mb-4">
       <label for="toggle-dark-mode" class="flex cursor-pointer gap-2">
         <Icon size="16" class="swap-on" name="iconamoon:mode-light"></Icon>
         <input
@@ -32,7 +34,7 @@
         />
         <Icon size="16" class="swap-off" name="iconamoon:mode-dark"></Icon>
       </label>
-    </div>
+    </div> -->
 
     <p class="text-xs text-base-content/40">
       Dibuat oleh
@@ -41,8 +43,7 @@
   </div>
 </template>
 
-<script setup lang="ts">
-import daisyuiColors from "daisyui/src/theming/themes";
+<!-- <script setup lang="ts">
 import { useDark, useToggle } from "@vueuse/core";
 const isDark = useDark({
   initialValue: "auto",
@@ -63,4 +64,4 @@ function toggleDarkMode() {
     meta: [{ name: "theme-color", content: bgColor }],
   });
 }
-</script>
+</script> -->
