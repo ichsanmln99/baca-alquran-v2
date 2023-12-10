@@ -16,25 +16,11 @@
 
     <div class="flex justify-center">
       <div class="text-xs text-base-content/40 mb-2 sm:w-2/3">
-        Baca dan dengarkan audio Al-Quran 30 Juz dengan Terjemahan Bahasa
-        Indonesia secara Online. Gratis tanpa iklan.
+        Baca Al-Quran 30 Juz dengan Terjemahan Bahasa Indonesia, Tanda Waqaf,
+        Audio Bacaan, dan Tafsir perayat, Lengkap! 📖✨ Baca Al-Quran beserta
+        artinya lebih mudah di baca-alquran.com
       </div>
     </div>
-
-    <!-- <div class="flex justify-center mb-4">
-      <label for="toggle-dark-mode" class="flex cursor-pointer gap-2">
-        <Icon size="16" class="swap-on" name="iconamoon:mode-light"></Icon>
-        <input
-          type="checkbox"
-          v-model="isDark"
-          @click="toggleDarkMode()"
-          class="toggle toggle-xs"
-          id="toggle-dark-mode"
-          name="toggle-dark-mode"
-        />
-        <Icon size="16" class="swap-off" name="iconamoon:mode-dark"></Icon>
-      </label>
-    </div> -->
 
     <p class="text-xs text-base-content/40">
       Dibuat oleh
@@ -42,26 +28,3 @@
     </p>
   </div>
 </template>
-
-<!-- <script setup lang="ts">
-import { useDark, useToggle } from "@vueuse/core";
-const isDark = useDark({
-  initialValue: "auto",
-  selector: "html",
-  attribute: "data-theme",
-  valueDark: "dark",
-  valueLight: "light",
-});
-
-const toggleDark = useToggle(isDark);
-
-function toggleDarkMode() {
-  toggleDark();
-
-  const bgColor = isDark.value ? "#1c1c1c" : "#efeae6";
-
-  useHead({
-    meta: [{ name: "theme-color", content: bgColor }],
-  });
-}
-</script> -->
