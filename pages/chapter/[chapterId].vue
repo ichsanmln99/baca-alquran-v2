@@ -67,8 +67,14 @@ const chapter = computed(() => findChapter(id));
 const config = useRuntimeConfig();
 
 useSeoMeta({
-  title: `Surah ${chapter.value?.name_simple} - Baca Al-Quran Bahasa Indonesia`,
-  description: `Baca Surah ${chapter.value?.name_simple} lengkap dengan, audio, terjemahan dan tafsirnya. Baca Al-Quran beserta artinya lebih mudah di baca-alquran.com`,
+  title: `Surah ${chapter.value?.name_simple} - Surah ke ${chapter.value?.id}`,
+  description: `Baca Surah ${chapter.value?.name_simple} (${chapter.value?.translated_name.name}) surah ke-${chapter.value?.id} lengkap dengan, audio, terjemahan dan tafsirnya. Baca Al-Quran beserta artinya lebih mudah di baca-alquran.com`,
+  keywords: `surah ${chapter.value?.name_simple}, surah ke ${chapter.value?.id}, surah ${chapter.value?.name_simple} lengkap, surah ${chapter.value?.name_simple} terjemahan, surah ${chapter.value?.name_simple} tafsir, surah ${chapter.value?.name_simple} audio, surah ${chapter.value?.name_simple} arab, surah ${chapter.value?.name_simple} latin, surah ${chapter.value?.name_simple} dan terjemahan, surah ${chapter.value?.name_simple} dan tafsir, surah ${chapter.value?.name_simple} dan audio, surah ${chapter.value?.name_simple} dan arab, surah ${chapter.value?.name_simple} dan latin`,
+  ogTitle: `Surah ${chapter.value?.name_simple} - Surah ke ${chapter.value?.id}`,
+  ogDescription: `Baca Surah ${chapter.value?.name_simple} (${chapter.value?.translated_name.name}) surah ke-${chapter.value?.id} lengkap dengan, audio, terjemahan dan tafsirnya. Baca Al-Quran beserta artinya lebih mudah di baca-alquran.com`,
+  ogUrl: `${config.public.PUBLIC_SITE_URL}/chapter/${id}`,
+  twitterTitle: `Surah ${chapter.value?.name_simple} - Surah ke ${chapter.value?.id}`,
+  twitterDescription: `Baca Surah ${chapter.value?.name_simple} (${chapter.value?.translated_name.name}) surah ke-${chapter.value?.id} lengkap dengan, audio, terjemahan dan tafsirnya. Baca Al-Quran beserta artinya lebih mudah di baca-alquran.com`,
 });
 
 useHead({
