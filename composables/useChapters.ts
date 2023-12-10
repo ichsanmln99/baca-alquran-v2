@@ -4,7 +4,7 @@ import type { IChapter } from "~/types/chapters.interface";
 export const useChapters = () => {
   const data = ref<IChapter[]>(chapterJson);
 
-  function findChapter(chapterId: Number) {
+  function findChapter(chapterId: number) {
     return data.value.find((chapter) => chapter.id === chapterId);
   }
 
