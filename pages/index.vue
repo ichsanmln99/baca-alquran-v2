@@ -29,6 +29,17 @@
 <script setup lang="ts">
 const { data: chapters } = useChapters();
 
+useSeoMeta({
+  title: `Baca Al-Quran dengan Audio, Terjemahan, dan Tafsir Indonesia`,
+  description: `Baca Al-Quran 30 Juz dengan Terjemahan Bahasa Indonesia, Tanda Waqaf, Audio Bacaan, dan Tafsir perayat, Lengkap! 📖✨ Baca Al-Quran beserta artinya lebih mudah di baca-alquran.com`,
+  keywords: `al-quran, quran web, quran online, website quran, baca quran, quran digital, quran indonesia, quran terjemahan, quran tafsir, quran audio, quran mp3, quran indo`,
+  ogTitle: `Baca Al-Quran dengan Audio, Terjemahan, dan Tafsir Indonesia`,
+  ogDescription: `Baca Al-Quran 30 Juz dengan Terjemahan Bahasa Indonesia, Tanda Waqaf, Audio Bacaan, dan Tafsir perayat, Lengkap! 📖✨ Baca Al-Quran beserta artinya lebih mudah di baca-alquran.com`,
+  ogUrl: `baca-alquran.com`,
+  twitterTitle: `Baca Al-Quran dengan Audio, Terjemahan, dan Tafsir Indonesia`,
+  twitterDescription: `Baca Al-Quran 30 Juz dengan Terjemahan Bahasa Indonesia, Tanda Waqaf, Audio Bacaan, dan Tafsir perayat, Lengkap! 📖✨ Baca Al-Quran beserta artinya lebih mudah di baca-alquran.com`,
+});
+
 const search = ref("");
 
 const chapterList = computed(() => {

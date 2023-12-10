@@ -26,51 +26,14 @@ export default defineNuxtConfig({
       meta: [
         // Global
         { name: "charset", content: "utf-8" },
-        {
-          name: "description",
-          content:
-            "Baca Al-Quran 30 Juz dengan Terjemahan Bahasa Indonesia, Tanda Waqaf, Audio Bacaan, dan Tafsir perayat, Lengkap! 📖✨ Baca Al-Quran beserta artinya lebih mudah di baca-alquran.com",
-        },
-        {
-          name: "keywords",
-          content:
-            "al-quran, quran web, quran online, website quran, baca quran, quran digital, quran indonesia, quran terjemahan, quran tafsir, quran audio, quran mp3, quran indo",
-        },
         { name: "theme-color", content: "#efeae6" },
-        {
-          name: "title",
-          content:
-            "Baca Al-Quran dengan Audio, Terjemahan, dan Tafsir Indonesia",
-        },
         { name: "viewport", content: "width=device-width,initial-scale=1" },
         // Facebook
-        {
-          property: "og:description",
-          content:
-            "Baca Al-Quran 30 Juz dengan Terjemahan Bahasa Indonesia, Tanda Waqaf, Audio Bacaan, dan Tafsir perayat, Lengkap! 📖✨ Baca Al-Quran beserta artinya lebih mudah di baca-alquran.com",
-        },
         { property: "og:image", content: "/social-banner.jpg" },
-        {
-          property: "og:title",
-          content:
-            "Baca Al-Quran dengan Audio, Terjemahan, dan Tafsir Indonesia",
-        },
         { property: "og:type", content: "website" },
-        { property: "og:url", content: "baca-alquran.com" },
         // Twitter
         { property: "twitter:card", content: "summary_large_image" },
-        {
-          property: "twitter:description",
-          content:
-            "Baca Al-Quran 30 Juz dengan Terjemahan Bahasa Indonesia, Tanda Waqaf, Audio Bacaan, dan Tafsir perayat, Lengkap! 📖✨ Baca Al-Quran beserta artinya lebih mudah di baca-alquran.com",
-        },
         { property: "twitter:image", content: "/social-banner.jpg" },
-        {
-          property: "twitter:title",
-          content:
-            "Baca Al-Quran dengan Audio, Terjemahan, dan Tafsir Indonesia",
-        },
-        { property: "twitter:url", content: "baca-alquran.com" },
       ],
       link: [
         {
