@@ -1,6 +1,7 @@
 <template>
   <div
-    class="navbar bg-base-100 p-4 border-b border-base-200 sticky top-0 z-10 navbar-scroll shadow-xl shadow-base-200/30 gap-4"
+    class="navbar bg-base-100 p-4 border-b border-base-200 sticky top-0 z-10 shadow-xl shadow-base-200/30 gap-4 transition-transform ease-in-out duration-500"
+    :class="{ '-translate-y-full': isNavbarHidden }"
   >
     <div class="flex-none">
       <NuxtLink
@@ -29,8 +30,9 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { useChapterStore } from "~/store/chapter";
-
 const chapterStore = useChapterStore();
+
+const { isNavbarHidden } = useScrollToHideNavbar();
 </script>
