@@ -24,7 +24,8 @@ export default defineNuxtConfig({
         lang: "id",
       },
       meta: [
-        { name: "charset", content: "UTF-8" },
+        // Global
+        { name: "charset", content: "utf-8" },
         {
           name: "description",
           content:
@@ -42,6 +43,7 @@ export default defineNuxtConfig({
             "Baca Al-Quran dengan Audio, Terjemahan, dan Tafsir Indonesia",
         },
         { name: "viewport", content: "width=device-width,initial-scale=1" },
+        // Facebook
         {
           property: "og:description",
           content:
@@ -55,6 +57,7 @@ export default defineNuxtConfig({
         },
         { property: "og:type", content: "website" },
         { property: "og:url", content: "baca-alquran.com" },
+        // Twitter
         { property: "twitter:card", content: "summary_large_image" },
         {
           property: "twitter:description",
