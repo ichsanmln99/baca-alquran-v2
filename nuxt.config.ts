@@ -32,8 +32,8 @@ export default defineNuxtConfig({
         { property: "og:image", content: "/social-banner.jpg" },
         { property: "og:type", content: "website" },
         // Twitter
-        { property: "twitter:card", content: "summary_large_image" },
-        { property: "twitter:image", content: "/social-banner.jpg" },
+        { name: "twitter:card", content: "summary_large_image" },
+        { name: "twitter:image", content: "/social-banner.jpg" },
       ],
       link: [
         {
