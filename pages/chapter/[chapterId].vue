@@ -64,6 +64,8 @@ const chapterStore = useChapterStore();
 const { findChapter } = useChapters();
 
 const chapter = computed(() => findChapter(id));
+if (chapter.value) chapterStore.setActiveChapter(chapter.value);
+
 const config = useRuntimeConfig();
 
 useSeoMeta({
@@ -87,12 +89,10 @@ useHead({
 });
 
 onMounted(() => {
-  if (chapter.value) chapterStore.setActiveChapter(chapter.value);
-
   storeLatestSurahRead();
 });
 
-onBeforeUnmount(() => {
+onBeforeRouteLeave(() => {
   chapterStore.stopAudio();
   chapterStore.resetState();
 });
